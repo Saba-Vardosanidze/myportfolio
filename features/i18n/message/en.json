@@ -3,5 +3,11 @@
     "HeroSection": "Hero Section",
     "MainPage": "My Work",
     "ContactMe": "Contact Me"
+  },
+  "HeroSection": {
+    "Greeting": "Hello.",
+    "Name": "Saba Vardosanidze",
+    "Profesion": "Front-End Developer",
+    "Description": "I started learning programming in November 2024 and have been actively involved in various projects ever since. I have a solid understanding of Front-End development and can build modern, functional, and visually appealing web applications. Additionally, I have experience creating 3D animations (using technologies like Three.js and React Three Fiber), which adds uniqueness to my projects. I am fluent in both Georgian and English, allowing me to collaborate effectively with local and international teams."
   }
 }
