@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import Saba from "@/public/saba.png";
 import {useTranslations} from "next-intl";
 import {
   Mail,
@@ -13,6 +11,7 @@ import {
 import Link from "next/link";
 import {motion} from "framer-motion";
 import {useState} from "react";
+import ProfileFrame from "./ProfileFrame";
 
 const HeroSection = () => {
   const t = useTranslations("HeroSection");
@@ -22,13 +21,9 @@ const HeroSection = () => {
     <section className="m-auto max-w-[1440px] w-full px-[20px]">
       <div className="flex justify-between">
         <div className="flex gap-[77px]">
-          <div className="flex flex-col">
-            <div className="max-w-[300px] w-full min-h-[400px] rounded-[30px] flex border border-dashed border-[#3F48CC] p-[20px]">
-              <div className="rounded-[20px] flex max-w-[260px] w-full min-h-[287px] overflow-hidden">
-                <Image src={Saba} alt="saba" />
-              </div>
-            </div>
-            <div className="flex flex-col gap-[20px] m-auto">
+          <div className="flex w-full max-w-[350px] flex-col">
+            <ProfileFrame />
+            <div className="flex  flex-col gap-[20px] m-auto">
               <div className="mt-[24px] flex items-center gap-[12px] hover:text-[#3F48CC] transition-all duration-300 ease-in-out cursor-pointer">
                 <PhoneCall className="w-[24px] h-[24px]" />
                 <a href="tel:+995571963180" className="text-[20px]">
